@@ -1,10 +1,23 @@
 import React from 'react';
 import Hero from '../components/components__home/Hero'
+import Card from '../components/components__home/Card'
 
-export default function Home(){
+export default function Home(props){
+    const cards = props.data.map(accommodation => {
+        return (
+            <Card
+                key={accommodation.id}
+                {...accommodation}
+                
+            />
+        )
+    })        
     return (
-        <main className="container">
+        <main>
             <Hero />
+            <section className="card__section container">
+                {cards}
+            </section>
         </main>
     )
 }

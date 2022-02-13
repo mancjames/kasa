@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
 import Error from './pages/Error'
+import data from './data.json'
 
 import {
   Routes,
@@ -18,8 +19,7 @@ function App() {
       </header>
       <main>
           <Routes>
-            <Route path="/kasa" element={<Home />} />
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home data={data} />} />
             <Route path="/about" element={<About />} />
             <Route path="/*" element={<Error />} />
           </Routes>
