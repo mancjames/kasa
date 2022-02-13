@@ -1,7 +1,11 @@
 import React from 'react'
+import {ReactComponent as Logo} from '../logo.svg'
 
 export default function Footer() {
   return (
-    <div>Footer</div>
+    <footer className="footer">
+      <Logo className="footer__logo" />
+      <p className="footer__text">&copy;2022 Kasa. All rights reserved</p>
+    </footer>
   )
 }
