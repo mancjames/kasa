@@ -3,7 +3,7 @@ import Hero from '../components/components__home/Hero'
 
 export default function Home(){
     return (
-        <main>
+        <main className="container">
             <Hero />
         </main>
     )

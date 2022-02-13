@@ -2,12 +2,18 @@
 
 :root {
   --color-primary: #ff6060;
+  --color-white: #fff;
+  --color-black: black;
 }
 
 /* Application */
 
 a {
   text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
 }
 
 .container {
@@ -40,4 +46,42 @@ a {
 
 .nav__list > li:hover {
   text-decoration: underline;
+}
+
+/* Home Page */
+
+.hero {
+  position: relative;
+  background: url(eric-muhr-P_XxsdVgtpQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  height: 14em;
+  border-radius: 25px;
+}
+
+.hero-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 25px;
+  top: 0;
+  left: 0;
+  opacity: .3;
+  background: var(--color-black);
+  z-index: 1;
+}
+
+.hero__text {
+  color: var(--color-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-weight: 400;
+  font-size: 3em;
+  letter-spacing: 1px;
+  width: 100%;
+  text-align: center;
 }
