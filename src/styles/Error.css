@@ -1,0 +1,30 @@
+/* Error Page */
+
+.error{
+    color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+  
+  }
+  
+  .error__hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .error__title{
+    font-size: 18em;
+  }
+  
+  .error__text {
+    font-size: 2.25em;
+  }
+  
+  .error__link {
+    font-size: 1.25em;
+    margin: 1em;
+  }

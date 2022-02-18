@@ -1,0 +1,28 @@
+/* Navigation */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav__logo {
+    height: 68px;
+  }
+  
+  .nav__list {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.5em;
+    color: var(--color-primary);
+  }
+  
+  .nav__list > li {
+    margin-left: 4em;
+    cursor: pointer;
+  }
+  
+  .nav__list > li:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,29 @@
+/* Footer */
+
+.footer{
+    background: black;
+    height: 12.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--color-white);
+    justify-content: space-around;
+  }
+  
+  .footer svg path {
+    fill: var(--color-white) !important;
+  }
+  
+  .footer svg text {
+    fill: var(--color-white) !important;
+  }
+  
+  .footer__logo{
+    height: 2em;
+    margin-top: 3em;
+  }
+  
+  .footer__text{
+    font-size: 1.5em;
+  }

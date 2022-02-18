@@ -1,4 +1,6 @@
-import './App.css';
+import './styles/App.css';
+import './styles/variables.css'
+import './styles/global.css'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
 import Home from './pages/Home'
@@ -13,11 +15,11 @@ import {
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <header>
         <Navigation />
       </header>
-      <main>
+      <main className="app__main">
           <Routes>
             <Route path="/" element={<Home data={data} />} />
             <Route path="/about" element={<About />} />

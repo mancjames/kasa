@@ -1,0 +1,14 @@
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+.container {
+  margin: 2em 6em;
+}
