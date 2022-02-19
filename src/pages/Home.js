@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from '../components/components__home/Hero'
+import HomeHero from '../components/components__home/HomeHero'
 import Card from '../components/components__home/Card'
 import '../styles/Home.css'
 
@@ -14,11 +14,11 @@ export default function Home(props){
         )
     })        
     return (
-        <main>
-            <Hero />
+        <div>
+            <HomeHero />
             <section className="card__section container">
                 {cards}
             </section>
-        </main>
+        </div>
     )
 }

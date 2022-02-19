@@ -12,3 +12,7 @@ a:active {
 .container {
   margin: 2em 6em;
 }
+
+.hero__container {
+    margin: 0 6em;
+}
