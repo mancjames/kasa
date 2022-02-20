@@ -6,10 +6,9 @@ import '../styles/Home.css'
 export default function Home(props){
     const cards = props.data.map(accommodation => {
         return (
-            <Card
-                key={accommodation.id}
-                {...accommodation}
-                
+                <Card
+            key={accommodation.id}
+            {...accommodation}
             />
         )
     })        

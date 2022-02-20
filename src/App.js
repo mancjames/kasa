@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
 import Error from './pages/Error'
+import Accommodation from './pages/Accommodation';
 import data from './data.json'
 
 import {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/" element={<Home data={data} />} />
             <Route path="/about" element={<About />} />
             <Route path="/*" element={<Error />} />
+            <Route path="/accommodation/:id" element={<Accommodation data={data} />} />
           </Routes>
       </main>
       <footer>
