@@ -36,7 +36,8 @@ export default function Carousel({children}) {
                 return React.cloneElement(child, {width: "100%"})
             })}
         </div>
-        <div className="carousel-indicators">
+        { children.length > 1 &&  
+            <div className="carousel-indicators">
             <ArrowBackIosIcon className="carousel-indicators--prev" style={{ fontSize: 85 }} onClick={() => {
                 updateIndex(activeIndex - 1)
             }} />
@@ -44,7 +45,8 @@ export default function Carousel({children}) {
                 updateIndex(activeIndex + 1)
             }
             } />
-        </div>
+            </div> }
+       
     </div>
   )
 }
