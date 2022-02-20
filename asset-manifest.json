@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kasa/static/css/main.37892968.css",
+    "main.js": "/kasa/static/js/main.2cd679c0.js",
+    "static/media/gustavo-alves-YOXSC4zRcxw-unsplash 1.jpg": "/kasa/static/media/gustavo-alves-YOXSC4zRcxw-unsplash 1.cce3d02d3c71c3d4f8dd.jpg",
+    "static/media/eric-muhr-P_XxsdVgtpQ-unsplash.jpg": "/kasa/static/media/eric-muhr-P_XxsdVgtpQ-unsplash.053687a54587bf187cfc.jpg",
+    "static/media/logo.svg": "/kasa/static/media/logo.c9333877d31328fc75b16238523c77f7.svg",
+    "index.html": "/kasa/index.html",
+    "main.37892968.css.map": "/kasa/static/css/main.37892968.css.map",
+    "main.2cd679c0.js.map": "/kasa/static/js/main.2cd679c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37892968.css",
+    "static/js/main.2cd679c0.js"
+  ]
+}
