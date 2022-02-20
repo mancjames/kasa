@@ -3,7 +3,7 @@
 .accommodation__content {
     display: flex;
     justify-content: space-between;
-    height: 12em;
+    height: 10em;
 }
 
 .accommodation__content h4 {
@@ -77,6 +77,22 @@
     object-fit: cover;
     border-radius: 100%;
     margin-left: .5em;
+}
+
+.accommodation__accordion-section {
+    display: flex;
+}
+
+.accommodation__accordion-section > article {
+    flex: 1;
+}
+
+.accommodation__accordion-section > article:first-child {
+    margin-right: 10em;
+}
+
+.accommodation__equipements-list {
+    list-style-type: none;
 }
 
 .rating {

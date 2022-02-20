@@ -34,6 +34,7 @@ export default function About() {
         key={item.id}
         title={item.title}
         content={item.content}
+        width='63em'
       />
     )
   })

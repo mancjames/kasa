@@ -1,5 +1,4 @@
 import React from 'react'
-// import StarIcon from '@material-ui/icons/Star';
 
 export default function Rating(props) {
     const ratingString = []; 
@@ -9,8 +8,6 @@ export default function Rating(props) {
     for(let i=props.rating; i<5; i++){
         ratingString.push(<span key={"Star_" + i} className="rating--empty">&#9733;</span>);
     }
-
-    console.log(ratingString)
 
   return (
         <div className="rating">

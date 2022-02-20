@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import Carousel, {CarouselItem} from '../components/Carousel';
 import Tag from '../components/components__accommodation/Tag';
 import Rating from '../components/Rating'
+import Accordion from '../components/Accordion';
 import '../styles/Accommodation.css'
 
 export default function Accommodation(props) {
@@ -17,6 +18,12 @@ export default function Accommodation(props) {
                         const tags = place.tags.map((tag) => {
                             return (
                                 <Tag tag={tag} key={tag}  />
+                            )
+                        })
+
+                        const equipments = place.Amenities.map(item => {
+                            return (
+                                <li>{item}</li>
                             )
                         })
 
@@ -50,6 +57,10 @@ export default function Accommodation(props) {
                                         <Rating rating={place.rating} />
                                    </div>
                                </div>
+                            </section>
+                            <section className="accommodation__accordion-section container">
+                                <Accordion title="Description" content={place.description} width='100%' />
+                                <Accordion title="Equipements" content={<ul className="accommodation__equipements-list" width='100%'>{equipments}</ul>} />
                             </section>
                             
                             </>
