@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import Carousel, {CarouselItem} from '../components/Carousel';
 import Tag from '../components/components__accommodation/Tag';
+import Rating from '../components/Rating'
 import '../styles/Accommodation.css'
 
 export default function Accommodation(props) {
@@ -30,9 +31,27 @@ export default function Accommodation(props) {
                                    })
                                }
                             </Carousel>
-                            <div className="accommodation__tags-section">
-                                {tags}
-                            </div>
+                            <section className="accommodation__content container">
+                               <div className="accommodation__details">
+                                   <div className="accommodation__title">
+                                       <h1>{place.title}</h1>
+                                       <h4>{place.location}</h4>
+                                   </div>
+                                    <div className="accommodation__tags-section">
+                                        {tags}
+                                    </div>
+                               </div>
+                               <div className="accommodation__host-details">
+                                   <div className="accommodation__host">
+                                        <h4 className="accommodation__name">{place.host.name}</h4>
+                                        <img src={place.host.picture} alt={place.host.name} />
+                                   </div>
+                                   <div className="accommodation__ratings">
+                                        <Rating rating={place.rating} />
+                                   </div>
+                               </div>
+                            </section>
+                            
                             </>
                         )
                     })
