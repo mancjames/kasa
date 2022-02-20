@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
+import '../styles/Accordion.css'
 
 export default function Accordion(props) {
 

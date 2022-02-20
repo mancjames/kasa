@@ -1,4 +1,4 @@
-.about-hero {
+.about__hero {
     background: url(../gustavo-alves-YOXSC4zRcxw-unsplash\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center; 
@@ -7,43 +7,8 @@
     border-radius: 25px;
   }
 
-.accordion {
+  .about__accordion-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.accordion__item {
-    width: 63em;
-    margin-bottom: 2em;
-}
-
-.accordion__title{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0em 2em;
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    border-radius: 5px;
-    height: 2.5em;
-    font-size: 1.5em;
-    position: relative;
-    z-index: 10;
-}
-
-.accordion__icon {
-    display: flex;
-    justify-self: center;
-    align-self: center;
-}
-
-.accordion__content {
-    padding: 2em 1em;
-    margin-top: -10px;
-    background-color: var(--color-gray);
-    color: var(--color-primary);
-    font-size: 1.5em;
-    font-weight: 300;
-    border-radius: 0 0 5px 5px;
 }

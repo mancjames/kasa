@@ -1,6 +1,7 @@
 import React, { useState , useEffect} from 'react'
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+import '../styles/Carousel.css'
 
 export default function Carousel({children}) {
 

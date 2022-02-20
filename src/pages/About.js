@@ -1,5 +1,5 @@
 import React from 'react'
-import Accordion from '../components/components__about/Accordion'
+import Accordion from '../components/Accordion'
 import AboutHero from '../components/components__about/AboutHero'
 import '../styles/About.css'
 
@@ -41,7 +41,7 @@ export default function About() {
   return (
     <div className='about'>
       <AboutHero />
-      <section className='accordion container'>
+      <section className='about__accordion-section container'>
       {accordion}
       </section>
     </div>
