@@ -16,3 +16,9 @@ a:active {
 .hero__container {
     margin: 0 6em;
 }
+
+@media only screen and (max-width: 480x){
+  .container {
+    margin: 0 2em;
+  }
+}
