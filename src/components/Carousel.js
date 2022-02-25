@@ -42,14 +42,12 @@ export default function Carousel({ children }) {
         <div className="carousel-indicators">
           <ArrowBackIosIcon
             className="carousel-indicators--prev"
-            style={{ fontSize: 85 }}
             onClick={() => {
               updateIndex(activeIndex - 1);
             }}
           />
           <ArrowForwardIosIcon
             className="carousel-indicators--next"
-            style={{ fontSize: 85 }}
             onClick={() => {
               updateIndex(activeIndex + 1);
             }}

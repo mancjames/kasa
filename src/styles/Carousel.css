@@ -19,15 +19,15 @@
 .carousel-indicators--prev{
     position: absolute;
     top: 50%;
-    left: 5%;
-    transform: translate(-50%, -50%);
+    left: 6%;
+    transform: translate(-50%, -50%) scale(3);
 }
 
 .carousel-indicators--next{
     position: absolute;
     top: 50%;
     left: 95%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(3);
 }
 
 .carousel-item{
