@@ -1,8 +1,5 @@
-import React from 'react';
+import React from "react";
 
-export default function AboutHero(){
-    return (
-        <div className="about__hero hero__container">
-        </div>
-    )
+export default function AboutHero() {
+  return <div className="about__hero hero__container"></div>;
 }
