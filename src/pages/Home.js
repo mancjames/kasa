@@ -8,9 +8,9 @@ export default function Home(props) {
     return <Card key={accommodation.id} {...accommodation} />;
   });
   return (
-    <div>
+    <>
       <HomeHero />
       <section className="card__section container">{cards}</section>
-    </div>
+    </>
   );
 }

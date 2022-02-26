@@ -7,7 +7,7 @@
   }
   
   .nav__logo {
-    height: 68px;
+    height: 4.25rem;
   }
   
   .nav__list {
@@ -25,3 +25,20 @@
     text-decoration: underline;
   }
   
+  @media only screen and (max-width: 912px){
+    .nav__logo {
+      height: 3rem;
+    }
+  }
+
+  @media only screen and (max-width: 720px){
+    .nav__list > li {
+      margin-left: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 280px){
+    .nav__logo {
+      height: 2rem;
+    }
+  }

@@ -17,8 +17,22 @@ a:active {
     margin: 0 6rem;
 }
 
-@media only screen and (max-width: 480x){
+@media only screen and (max-width: 912px){
   .container {
+    margin: 2rem;
+  }
+
+  .hero__container {
     margin: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 720px){
+  .container {
+    margin: 1.5rem;
+  }
+
+  .hero__container {
+    margin: 0 1.5rem;
   }
 }

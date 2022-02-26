@@ -24,3 +24,22 @@
     height: 2rem;
     margin-top: 3rem;
   }
+
+  @media only screen and (max-width: 912px){
+    .footer{
+      height: 10em;
+      margin-top: 3rem;
+      justify-content: space-evenly;
+    }
+
+    .footer__logo{
+      margin-top: 0;
+    }
+  }
+
+  @media only screen and (max-width: 720px){
+    .footer{
+      height: 8em;
+      margin-top: 1rem;
+    }
+  }
