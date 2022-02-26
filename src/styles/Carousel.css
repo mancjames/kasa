@@ -42,3 +42,27 @@
     width: 100%;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 912px){
+    .carousel {
+        height: 20rem;
+    }
+
+    .carousel-item img{
+        height: 20rem;
+    }
+  }
+
+  @media only screen and (max-width: 720px){
+    .carousel {
+        height: 16rem;
+    }
+
+    .carousel-indicators--prev{
+        transform: scale(1.5);
+    }
+    
+    .carousel-indicators--next{
+        transform: scale(1.5);
+    }
+  }
