@@ -13,3 +13,41 @@
     align-items: center;
     margin: 2rem 12rem;
 }
+
+  
+@media only screen and (max-width: 912px){
+  .about__hero{
+    height: 12rem;
+  }
+
+  .about__accordion-section {
+    margin: 2rem 8rem;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .about__hero{
+    height: 10rem;
+  }
+
+  .about__accordion-section {
+    margin: 2rem 8rem;
+  }
+}
+
+@media only screen and (max-width: 720px){
+  .about__hero{
+    height: 14rem;
+  }
+
+  .about__accordion-section {
+    margin: 2rem;
+  }
+}
+
+@media only screen and (max-width: 280px){
+    .about__hero {
+      height: 12rem;
+    }
+  
+}
