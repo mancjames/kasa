@@ -7,7 +7,7 @@ export default function Accordion(props) {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <article className="accordion__item" style={{ width: `${props.width}` }}>
+    <article className="accordion__item">
       <div className="accordion__title" onClick={() => setIsActive(!isActive)}>
         <div aria-expanded={isActive}>{props.title}</div>
         <div className="accordion__icon">

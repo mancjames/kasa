@@ -15,10 +15,7 @@ export default function Accommodation(props) {
   });
 
   const equipments = place.Amenities.map((item, index) => {
-    return (
-      //add key here
-      <li key={index}>{item}</li>
-    );
+    return <li key={index}>{item}</li>;
   });
 
   const carouselPicture = place.pictures.map((pic, index) => {
@@ -51,17 +48,11 @@ export default function Accommodation(props) {
         </div>
       </section>
       <section className="accommodation__accordion-section container">
-        <Accordion
-          title="Description"
-          content={place.description}
-          width="100%"
-        />
+        <Accordion title="Description" content={place.description} />
         <Accordion
           title="Equipements"
           content={
-            <ul className="accommodation__equipements-list" width="100%">
-              {equipments}
-            </ul>
+            <ul className="accommodation__equipements-list">{equipments}</ul>
           }
         />
       </section>

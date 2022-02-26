@@ -38,7 +38,7 @@
 }
 
 .carousel-item img{
-    height: 25em;
+    height: 25rem;
     width: 100%;
     object-fit: cover;
 }

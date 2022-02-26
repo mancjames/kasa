@@ -32,21 +32,14 @@ export default function About() {
 
   const accordion = accordionData.map((item) => {
     return (
-      <Accordion
-        key={item.id}
-        title={item.title}
-        content={item.content}
-        width="63em"
-      />
+      <Accordion key={item.id} title={item.title} content={item.content} />
     );
   });
 
   return (
     <div className="about">
       <AboutHero />
-      <section className="about__accordion-section container">
-        {accordion}
-      </section>
+      <section className="about__accordion-section">{accordion}</section>
     </div>
   );
 }

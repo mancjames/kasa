@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
-    height: 14em;
+    height: 14rem;
     border-radius: 25px;
   }
   
@@ -30,7 +30,7 @@
     transform: translate(-50%, -50%);
     z-index: 2;
     font-weight: 400;
-    font-size: 3em;
+    font-size: 3rem;
     letter-spacing: 1px;
     width: 100%;
     text-align: center;
@@ -41,15 +41,15 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 25px;
-    padding: 3em;
-    gap: 3em;
+    padding: 3rem;
+    gap: 3rem;
     justify-items: center;
   }
   
   .card {
     position: relative;
-    width: 21.25em;
-    height: 21.25em;
+    width: 21.25rem;
+    height: 21.25rem;
   }
   
   
@@ -79,7 +79,7 @@
     transform: translate(-50%, -50%);
     z-index: 2;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1rem;
     letter-spacing: 1px;
     width: 70%;
   }

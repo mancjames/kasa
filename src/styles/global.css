@@ -10,15 +10,15 @@ a:active {
 }
 
 .container {
-  margin: 2em 6em;
+  margin: 2rem 6rem;
 }
 
 .hero__container {
-    margin: 0 6em;
+    margin: 0 6rem;
 }
 
 @media only screen and (max-width: 480x){
   .container {
-    margin: 0 2em;
+    margin: 0 2rem;
   }
 }

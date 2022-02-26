@@ -9,7 +9,7 @@
     flex-direction: column;
     color: var(--color-white);
     justify-content: space-around;
-    margin-top: 5em;
+    margin-top: 5rem;
   }
   
   .footer svg path {
@@ -21,10 +21,10 @@
   }
   
   .footer__logo{
-    height: 2em;
-    margin-top: 3em;
+    height: 2rem;
+    margin-top: 3rem;
   }
   
   .footer__text{
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }

@@ -3,17 +3,17 @@
 .accommodation__content {
     display: flex;
     justify-content: space-between;
-    height: 10em;
+    height: 10rem;
 }
 
 .accommodation__content h4 {
     font-weight: 500;
-    font-size: 1.125em;
+    font-size: 1.125rem;
 }
 
 .accommodation__content h1 {
     font-weight: 500;
-    font-size: 2.25em;
+    font-size: 2.25rem;
 }
 
 .accommodation__details {
@@ -29,7 +29,7 @@
 }
 
 .accommodation__title h1 {
-    margin-bottom: .1em;
+    margin-bottom: .1rem;
 }
 
 .accommodation__tags-section {
@@ -40,14 +40,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 1em;
+    margin-right: 1rem;
     background-color: var(--color-primary);
     color: var(--color-white);
     width: 10rem;
     height: 2rem;
     text-align: center;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 0.875rem
 }
 
 .accommodation__host-details {
@@ -59,7 +59,7 @@
 
 .accommodation__name{
     overflow-wrap: break-word;
-    width: 5em;
+    width: 5rem;
     text-align: end;
 }
 
@@ -68,15 +68,15 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    width: 15em;
+    width: 15rem;
 }
 
 .accommodation__host img {
-    height: 4em;
-    width: 4em;
+    height: 4rem;
+    width: 4rem;
     object-fit: cover;
     border-radius: 100%;
-    margin-left: .5em;
+    margin-left: .5rem;
 }
 
 .accommodation__accordion-section {
@@ -88,7 +88,7 @@
 }
 
 .accommodation__accordion-section > article:first-child {
-    margin-right: 10em;
+    margin-right: 10rem;
 }
 
 .accommodation__equipements-list {
@@ -96,14 +96,14 @@
 }
 
 .rating {
-    font-size: 1.875em;
+    font-size: 1.875rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
 .rating > span {
-    margin-left: .5em;
+    margin-left: .5rem;
 }
 
 .rating--full {
