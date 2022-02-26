@@ -6,8 +6,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
-  
+    height: 80vh;
   }
   
   .error__hero{
@@ -19,4 +18,33 @@
   
   .error__link {
     margin: 1rem;
+  }
+
+  @media only screen and (max-width: 912px){
+    .error{
+      justify-content: space-evenly;
+      height: 50vh;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+
+    .error__text{
+      width: 80%;
+    }
+
+    .error__hero{
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 720px){
+
+  
+  }
+
+  @media only screen and (max-width: 280px){
+
+   
   }
