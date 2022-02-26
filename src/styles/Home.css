@@ -29,9 +29,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    font-weight: 400;
-    font-size: 3rem;
-    letter-spacing: 1px;
     width: 100%;
     text-align: center;
   }
@@ -78,9 +75,6 @@
     left: 40%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    font-weight: 400;
-    font-size: 1rem;
-    letter-spacing: 1px;
     width: 70%;
   }
   

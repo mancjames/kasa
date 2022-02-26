@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <Logo className="footer__logo" />
-      <p className="footer__text">&copy;2022 Kasa. All rights reserved</p>
+      <h4 className="footer__text">&copy;2022 Kasa. All rights reserved</h4>
     </footer>
   );
 }

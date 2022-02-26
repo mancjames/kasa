@@ -1,6 +1,7 @@
 import "./styles/App.css";
 import "./styles/variables.css";
 import "./styles/global.css";
+import "./styles/Typography.css";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";

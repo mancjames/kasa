@@ -9,7 +9,9 @@ export default function Accordion(props) {
   return (
     <article className="accordion__item">
       <div className="accordion__title" onClick={() => setIsActive(!isActive)}>
-        <div aria-expanded={isActive}>{props.title}</div>
+        <div aria-expanded={isActive}>
+          <h5>{props.title}</h5>
+        </div>
         <div className="accordion__icon">
           {isActive ? (
             <KeyboardArrowDownIcon style={{ fontSize: 45 }} />
@@ -20,7 +22,7 @@ export default function Accordion(props) {
       </div>
       {isActive && (
         <div className="accordion__content" aria-expanded={!isActive}>
-          {props.content}
+          <h5>{props.content}</h5>
         </div>
       )}
     </article>

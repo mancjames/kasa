@@ -8,13 +8,13 @@ export default class Error extends Component {
       <div className="error">
         <section className="error__hero">
           <h1 className="error__title">404</h1>
-          <h5 className="error__text">
+          <h3 className="error__text">
             Oops! It looks like this page doesn't exist
-          </h5>
+          </h3>
         </section>
-        <p className="error__link">
+        <h5 className="error__link">
           <Link to="/">Go back to the home page</Link>
-        </p>
+        </h5>
       </div>
     );
   }

@@ -32,14 +32,14 @@ export default function Accommodation(props) {
       <section className="accommodation__content container">
         <div className="accommodation__details">
           <div className="accommodation__title">
-            <h1>{place.title}</h1>
-            <h4>{place.location}</h4>
+            <h3>{place.title}</h3>
+            <h5>{place.location}</h5>
           </div>
           <div className="accommodation__tags-section">{tags}</div>
         </div>
         <div className="accommodation__host-details">
           <div className="accommodation__host">
-            <h4 className="accommodation__name">{place.host.name}</h4>
+            <h5 className="accommodation__name">{place.host.name}</h5>
             <img src={place.host.picture} alt={place.host.name} />
           </div>
           <div className="accommodation__ratings">

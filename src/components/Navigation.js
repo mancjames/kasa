@@ -9,10 +9,14 @@ export default function Navigation() {
       <img src={logo} alt="logo" className="nav__logo" />
       <ul className="nav__list">
         <li>
-          <Link to="/">Home</Link>
+          <h4>
+            <Link to="/">Home</Link>
+          </h4>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <h4>
+            <Link to="/about">About</Link>
+          </h4>
         </li>
       </ul>
     </nav>
