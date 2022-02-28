@@ -16,7 +16,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
 		"rating": "5",
-		"Location": "Paris - 17th arrondissement",
+		"location": "Paris - 17th arrondissement",
 		"Amenities": [
 			"Basic Appliances",
 			"Microwave",

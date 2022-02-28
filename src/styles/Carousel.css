@@ -11,7 +11,6 @@
 }
 
 .carousel-indicators {
-    
     color: var(--color-white);
     z-index: 10;
 }
@@ -58,11 +57,25 @@
         height: 16rem;
     }
 
+    .carousel-item img{
+        height: 16rem;
+    }
+
     .carousel-indicators--prev{
-        transform: scale(1.5);
+        transform: translate(-50%, -50%) scale(1.5);
     }
     
     .carousel-indicators--next{
-        transform: scale(1.5);
+        transform: translate(-50%, -50%) scale(1.5);
+    }
+  }
+
+  @media only screen and (max-width: 280px){
+    .carousel-indicators--prev{
+        left: 12.5%;
+    }
+    
+    .carousel-indicators--next{
+        left: 90%;
     }
   }

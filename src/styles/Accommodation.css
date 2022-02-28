@@ -124,6 +124,7 @@
     .accommodation__title {
         height: 100%;
         justify-content: space-evenly;
+        grid-gap: 1rem;
     }
 
     .accommodation__details {
@@ -142,16 +143,16 @@
   }
 
   @media only screen and (max-width: 720px){
-    .accommodation__accordion-section > article:first-child {
-        margin-right: 0;
-    }
-
-    .accommodation__accordion-section {
-        flex-direction: column;
-    }
 
     .accommodation__content {
         justify-content: space-around;
+        height: auto;
+        grid-gap: 1rem;
+    }
+
+    .accommodation__details {
+        height: 100%;
+        grid-gap: 1rem;
     }
 
     .accommodation__tags {
@@ -161,11 +162,26 @@
         margin-right: .5rem;
         width: 6.25rem;
         height: 1.25rem;
+        border-radius: 5px;
         font-size: 0.5rem
     }
 
     .accommodation__host img {
         height: 2rem;
         width: 2rem;
+    }
+
+    .accommodation__accordion-section {
+        flex-direction: column;
+    }
+
+    .accommodation__accordion-section > article:first-child {
+        margin-right: 0;
+    }
+  }
+
+  @media only screen and (max-width: 280px){
+    .rating {
+        font-size: 1rem;
     }
   }
