@@ -23,11 +23,17 @@
 }
 
 .accordion__content {
-    padding: 2em 1rem;
     margin-top: -10px;
     background-color: var(--color-gray);
     color: var(--color-primary);
     border-radius: 0 0 5px 5px;
+    height: 0px;
+    transition: all .5s ease;
+    overflow: hidden;
+}
+
+.accordion__content-text{
+    padding: 2em 1rem;
 }
 
 .accordion__content h5 {
