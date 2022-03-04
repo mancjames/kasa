@@ -4,11 +4,15 @@ import Carousel, { CarouselItem } from "../components/Carousel";
 import Tag from "../components/components__accommodation/Tag";
 import Rating from "../components/Rating";
 import Accordion from "../components/Accordion";
+import Error from "./Error";
 import "../styles/Accommodation.css";
 
 export default function Accommodation(props) {
   let { id } = useParams();
   const place = props.data.find((place) => place.id === id);
+  if (!place) {
+    return <Error />;
+  }
 
   const tags = place.tags.map((tag) => {
     return <Tag tag={tag} key={tag} />;
