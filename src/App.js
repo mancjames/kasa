@@ -22,11 +22,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Home data={data} />} />
           <Route path="/about" element={<About />} />
-          <Route path="/*" element={<Error />} />
+
           <Route
             path="/accommodation/:id"
             element={<Accommodation data={data} />}
           />
+          <Route path="*" element={<Error />} />
         </Routes>
       </main>
       <footer>
